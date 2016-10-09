@@ -108,3 +108,8 @@ echo "------------------------------"
 echo "Script completed."
 echo "Usage: workon py2-data for Python2"
 echo "Usage: workon py3-data for Python3"
+
+###############################################################################
+# Install Anaconda
+###############################################################################
+pushd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages; git clone https://github.com/DamnWidget/anaconda; popd
